@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite App</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <nav class="nav">
+            <input class="nav--color-picker" type="color" />
+            <div class="nav--select-wrapper">
+                <div class="nav--color-schemes">
+                    <span>Select scheme</span>
+                    <i class="fa-solid fa-angle-down fa-lg"></i>
+                </div>
+            </div>
+            <!-- <select class="nav--color-schemes" name="schemes" id="schemes">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+            </select> -->
+            <button class="nav--get-scheme-btn">Get color scheme</button>
+        </nav>
+        <main class="main">
+            <div class="main--color"></div>
+            <div class="main--color"></div>
+            <div class="main--color"></div>
+            <div class="main--color"></div>
+            <div class="main--color"></div>
+        </main>
+        <footer class="footer">
+            <div class="footer--container">
+                <h3 class="footer--color-hex">#D5D4D8</h3>
+            </div>
+            <div class="footer--container">
+                <h3 class="footer--color-hex">#D5D4D8</h3>
+            </div>
+            <div class="footer--container">
+                <h3 class="footer--color-hex">#D5D4D8</h3>
+            </div>
+            <div class="footer--container">
+                <h3 class="footer--color-hex">#D5D4D8</h3>
+            </div>
+            <div class="footer--container">
+                <h3 class="footer--color-hex">#D5D4D8</h3>
+            </div>
+        </footer>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
