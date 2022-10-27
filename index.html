@@ -19,21 +19,44 @@
     <body>
         <nav class="nav">
             <input class="nav--color-picker" type="color" />
-            <div class="nav--select-wrapper">
-                <div class="nav--color-schemes">
-                    <span>Select scheme</span>
+            <div id="wrapper" class="nav--select-wrapper">
+                <div id="select-btn" class="nav--color-schemes">
+                    <span id="span-scheme">Select a scheme</span>
                     <i class="fa-solid fa-angle-down fa-lg"></i>
                 </div>
+                <div class="nav--select-content">
+                    <ul class="nav--select-options">
+                        <div class="li-container">
+                            <li>Monochrome</li>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="li-container">
+                            <li>Monochrome-dark</li>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="li-container">
+                            <li>Monochrome-light</li>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="li-container">
+                            <li>Analogic</li>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="li-container">
+                            <li>Complement</li>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="li-container">
+                            <li>Analogic-complement</li>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="li-container">
+                            <li>Triad</li>
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </ul>
+                </div>
             </div>
-            <!-- <select class="nav--color-schemes" name="schemes" id="schemes">
-                <option value="monochrome">Monochrome</option>
-                <option value="monochrome-dark">Monochrome-dark</option>
-                <option value="monochrome-light">Monochrome-light</option>
-                <option value="analogic">Analogic</option>
-                <option value="complement">Complement</option>
-                <option value="analogic-complement">Analogic-complement</option>
-                <option value="triad">Triad</option>
-            </select> -->
             <button class="nav--get-scheme-btn">Get color scheme</button>
         </nav>
         <main class="main">
